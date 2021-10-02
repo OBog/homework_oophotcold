@@ -1,0 +1,21 @@
+{
+    "name": "practice/hotcold",
+    "description": "Game to detect a nuber using HOT & COLD messages",
+    "type": "project",
+    "license": "free",
+    "authors": [
+        {
+            "name": "Olga Bogatska",
+            "email": "olgabogatska@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/console": "^5.3"
+    }
+}
